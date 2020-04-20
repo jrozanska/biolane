@@ -13,7 +13,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
-    min-width: 400px;
+    min-width: 350px;
 }
 
 a {
@@ -349,7 +349,7 @@ li {
 /*icons section*/
 
 #icons_section {
-    min-width: 360px;
+    min-width: 350px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -822,6 +822,7 @@ li {
     align-items: center;
     width: 80%;
     margin: 0 auto;
+    min-width: 350px;
 }
 
 .newsletter-add {
@@ -844,9 +845,7 @@ li {
     color: white;
     transform: translateY(-7px);
 }
-.newsletter-holder {
-    min-width: 400px;
-}
+
 
 #newsletter{
     background-color: white;
@@ -904,17 +903,34 @@ li {
 
     .newsletter-holder h3 {
         margin: 0 0 2rem 0;
+        font-size: 20px;
     }
 }
 
 @media screen and (max-width: 650px) {
     #newsletter{
-        width: 300px;
+        width: 250px;
     }
     .newsletter-box button {
-        transform: translateX(0px);
+        transform: translateX(0);
         padding: 0 1rem;
     }
+
+    .newsletter-holder {
+        width: 100%;
+    }
+
+    .newsletter-add i{
+        font-size: 30px;
+        margin-right: .5rem;
+    }
+
+    .newsletter-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 
 }
 
