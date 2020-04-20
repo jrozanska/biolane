@@ -288,7 +288,8 @@ li {
         background-color: white;
         position: absolute;
         left: 0;
-        top:100%
+        top:100%;
+
     }
 
     .sub-menu {
@@ -296,6 +297,7 @@ li {
         position: initial;
         opacity:1;
         transform: scale(1);
+        border: none;
     }
 
     .nav-list li:hover > .sub-menu {
